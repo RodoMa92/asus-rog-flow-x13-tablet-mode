@@ -194,10 +194,10 @@ index a81dc4b191b7..88be054574ce 100644
  	},
 +	{
 +		.callback = dmi_matched,
-+		.ident = "ASUS ROG FLOW X13",
++		.ident = "ASUS VivoBook TP420IA",
 +		.matches = {
 +			DMI_MATCH(DMI_SYS_VENDOR, "ASUSTeK COMPUTER INC."),
-+			DMI_MATCH(DMI_PRODUCT_NAME, "GV301QE"),
++			DMI_MATCH(DMI_PRODUCT_NAME, "TP420IA"),
 +		},
 +		.driver_data = &quirk_asus_gv301qe,
 +	},
